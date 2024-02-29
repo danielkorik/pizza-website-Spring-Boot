@@ -1,5 +1,5 @@
 'use strict';
-
+//ad model
 const Sequelize= require('sequelize');
 module.exports = (sequelize) => {
     class Ad extends Sequelize.Model {}

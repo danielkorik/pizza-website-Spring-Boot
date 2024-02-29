@@ -2,9 +2,6 @@ const express = require('express');
 const router = express.Router();
 const db = require('../models');
 
-
-// Landing page route
-// Landing page route
 // Landing page route
 router.get('/', async function(req, res, next) {
     try {

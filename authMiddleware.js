@@ -7,5 +7,6 @@ module.exports = {
         } else {
             return res.status(403).json({ error: 'Forbidden' });
         }
+
     },
 };

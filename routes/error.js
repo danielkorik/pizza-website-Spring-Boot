@@ -6,5 +6,4 @@ router.get('/', function(req, res, next) {
     const errorMessage = req.query.errorMessage || 'Unknown Error';
     res.render('error', { errorMessage });
 });
-
 module.exports = router;

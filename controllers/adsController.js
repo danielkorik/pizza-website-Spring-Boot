@@ -1,7 +1,7 @@
 const db = require("../models");
 const {User} = require("../models");
 const Ad = require('../models').Ad;
-
+//get approved ads
 const getApprovedAds = async (req, res) => {
     try {
         // Implement logic to fetch approved ads
@@ -12,6 +12,7 @@ const getApprovedAds = async (req, res) => {
         res.status(500).json({ error: 'Server Error' });
     }
 };
+//---------------------------------------------get all ads
 const getAllAds = async (req, res) => {
     try {
         // Implement logic to fetch all ads

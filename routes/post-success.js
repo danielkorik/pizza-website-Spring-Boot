@@ -7,5 +7,4 @@ router.get('/', function(req, res, next) {
     const successMessage = req.query.successMessage || '';
     res.render('post-success', { successMessage , title: 'Success Page' });
 });
-
 module.exports = router;

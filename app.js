@@ -85,6 +85,5 @@ async function initializeApp() {
         console.error('Error initializing the app:', error);
     }
 }
-
 initializeApp();
 module.exports = app;

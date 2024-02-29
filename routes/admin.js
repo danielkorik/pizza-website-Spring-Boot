@@ -16,7 +16,6 @@ router.get('/', isAdmin, async function(req, res, next) {
         next(error);
     }
 });
-
 // Route to get all ads for admin with API endpoint
 router.get('/api/ads', isAdmin, async (req, res) => {
     try {

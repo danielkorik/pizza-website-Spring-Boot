@@ -4,7 +4,7 @@ function approveAd(adId) {
         .then(data => console.log(data))
         .catch(error => console.error(error));
 }
-
+//delet function
 // admin.js
 function deleteAd(adId) {
     // Send an AJAX request to delete the ad

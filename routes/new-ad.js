@@ -26,7 +26,6 @@ router.post('/post-ad', async function(req, res) {
             email: email,
             lastAdPostedDate: new Date().toLocaleString(), // Adjust as needed for your date formatting
         });
-
         res.redirect(`/post-success?successMessage=Ad posted successfully&title=Success Page: ${newAd.get('title')}`);
     } catch (err) {
         console.error(err);

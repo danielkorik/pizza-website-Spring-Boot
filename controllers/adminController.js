@@ -1,4 +1,3 @@
-// controllers/adminController.js
 const db = require('../models');
 
 

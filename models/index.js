@@ -3,7 +3,7 @@
 * and make sure to load it wherever you need to access the model classes:
 * const db = require('../models');
 * */
-
+//index model
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');

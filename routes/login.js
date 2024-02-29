@@ -7,7 +7,6 @@ const db = require('../models');
 router.get('/', function(req, res, next) {
     res.render('login', { errorMessage: '' , title: 'Login Page'}); // Pass an empty string to errorMessage
 });
-
 // Login page route (POST)
 router.post('/', async function(req, res, next) {
     try {
