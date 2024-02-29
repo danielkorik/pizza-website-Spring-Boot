@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="/images/successlogo.jpg" type="image/png">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col mb-4 mt-4 d-flex justify-content-center">
+            <img src="/images/success.jpg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="container mt-5">
+            <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">Ad Posted Successfully!</h4>
+                <p><%= successMessage %></p>
+                <p>Your ad is waiting for approval from admin.</p>
+                <hr>
+                <p class="mb-0"><a href="/" class="alert-link">Go back to the landing page</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-VZxEAgz5NDBW6P/P2Q6U72dyJlRUAtvQ/GPw5N2H6FfWU1zj3eIlWbVvK3/dF3c" crossorigin="anonymous"></script>
+</body>
+</html>
