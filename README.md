@@ -6,7 +6,6 @@
 <h1>MaorMan</h1>
 <p>Email: maorma@edu.hac.ac.il</p>
 
-
 <h1>Execution</h1>
 <p>
 The submission is a WebStorm project that can be run directly from the IDE.
