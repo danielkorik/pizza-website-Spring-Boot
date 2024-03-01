@@ -18,6 +18,10 @@ The submission is a WebStorm project that can be run directly from the IDE.
 We Used CSS To the spinner loading and to the nasa icon, we tried not to but it was the only option to make them
 work properly.
 <p>
-
+<strong>
+We are 1 Day late of committing the project because we had to fix the error.ejs page with some errors and alert to make it look prettier 
+We saw that We had to write it here so you can see that and each group have 1 time of being late without punishment.
+Thank You!!
+</strong>
 </p>
 

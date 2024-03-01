@@ -22,10 +22,10 @@ module.exports = (sequelize) => {
             }
         },
         price: {
-            type: Sequelize.FLOAT,
+            type: Sequelize.STRING,
             allowNull: false,
             validate: {
-                min: 0 // Price is a number >= 0
+                len : [0,10]// Price is a number >= 0
             }
         },
         phoneNumber: {
