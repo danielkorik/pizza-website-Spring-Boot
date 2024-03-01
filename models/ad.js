@@ -25,7 +25,7 @@ module.exports = (sequelize) => {
             type: Sequelize.STRING,
             allowNull: false,
             validate: {
-                len : [0,10]// Price is a number >= 0
+                len : [0,10]// Price
             }
         },
         phoneNumber: {

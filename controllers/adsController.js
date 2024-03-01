@@ -30,6 +30,7 @@ const createAd = async (adData) => {
         const newAd = await Ad.create(adData);
         return newAd;
     } catch (error) {
+
         // Handle specific validation error for phone number
         if (error.name === 'SequelizeValidationError' && error.errors[0].validatorKey === 'isValidPhoneNumber') {
             throw new Error('Invalid phone number format. Please use the format XX-XXXXXXX or XXX-XXXXXXX.');

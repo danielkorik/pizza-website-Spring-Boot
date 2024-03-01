@@ -6,7 +6,6 @@
 <h1>MaorMan</h1>
 <p>Email: maorma@edu.hac.ac.il</p>
 
-
 <h1>Execution</h1>
 <p>
 The submission is a WebStorm project that can be run directly from the IDE.
@@ -15,8 +14,7 @@ The submission is a WebStorm project that can be run directly from the IDE.
 <p>
   The site use bootstap CDN therefore assumes an internet connection is available.
 </p>
-We Used CSS To the spinner loading and to the nasa icon, we tried not to but it was the only option to make them
-work properly.
+
 <p>
 <strong>
 We are 1 Day late of committing the project because we had to fix the error.ejs page with some errors and alert to make it look prettier 
